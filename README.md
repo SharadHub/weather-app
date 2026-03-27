@@ -1,5 +1,4 @@
-# 🌤️ Weather App
-
+# Weather App 🌤️
 A full-stack weather application that lets users search for real-time weather data for any city in the world. Built with a React frontend and a Node.js backend powered by the OpenWeatherMap API.
 
 ---
@@ -20,7 +19,7 @@ A full-stack weather application that lets users search for real-time weather da
 
 ---
 
-## ✨ Features
+## Features
 
 - 🔍 Search weather by city name
 - 🌡️ Displays real-time temperature (°C)
@@ -30,7 +29,7 @@ A full-stack weather application that lets users search for real-time weather da
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 weather-app/
@@ -47,7 +46,7 @@ weather-app/
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer    | Technology                     |
 |----------|-------------------------------|
@@ -58,7 +57,7 @@ weather-app/
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 - Node.js (ES Modules support)
 - npm
@@ -66,7 +65,7 @@ weather-app/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the repository
 
@@ -106,17 +105,17 @@ The app will be available at `http://localhost:YOUR_PORT_NO`.
 
 ---
 
-## 🔑 Environment Variables
+## Environment Variables
 
 | Variable              | Location         | Description                      |
 |-----------------------|-----------------|----------------------------------|
 | `OPENWEATHER_API_KEY` | `backend/.env`  | Your OpenWeatherMap API key      |
 
-> ⚠️ Never commit your `.env` file. Make sure it's listed in `.gitignore`.
+> Never commit your `.env` file. Make sure it's listed in `.gitignore`.
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 ### Backend
 - [`axios`](https://axios-http.com/) — HTTP client for API requests
@@ -127,7 +126,7 @@ The app will be available at `http://localhost:YOUR_PORT_NO`.
 
 ---
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 - [OpenWeatherMap](https://openweathermap.org/) for the free weather API
 ---
