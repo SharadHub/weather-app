@@ -6,7 +6,7 @@ A full-stack weather application that lets users search for real-time weather da
 
 ## 🔗 Live Demo
 
-> [Click here to view the live app](#) *(add your deployment URL here)*
+> [Link is not ready yet](#)
 
 ---
 
@@ -14,9 +14,9 @@ A full-stack weather application that lets users search for real-time weather da
 
 | Home Screen | Search Results |
 |-------------|----------------|
-| ![Home](https://via.placeholder.com/500x300?text=Home+Screen) | ![Results](https://via.placeholder.com/500x300?text=Search+Results) |
+| ![Home](coming soon) | ![Results](coming soon) |
 
-> 💡 *Replace the placeholders above with actual screenshots of your app.*
+>
 
 ---
 
@@ -34,17 +34,15 @@ A full-stack weather application that lets users search for real-time weather da
 
 ```
 weather-app/
-├── frontend/               # React frontend
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── App.jsx
-│   │   └── main.jsx
-│   └── package.json
+├── weather-app-frontend    # React.js frontend is yet to make
 │
-└── backend/                # Node.js backend
-    ├── weather.js
-    └── package.json
+└── weather-app-backend/
+├── .gitignore              # Git ignore file
+├── README.md               # Documentation
+├── node_modules/           # Dependencies
+├── package.json            # Project configuration
+├── package-lock.json       # Dependency lock file
+└── weather.js              # Main application file
 ```
 
 ---
@@ -62,9 +60,9 @@ weather-app/
 
 ## ⚙️ Requirements
 
-- Node.js v18+ (ES Modules support)
+- Node.js (ES Modules support)
 - npm
-- OpenWeatherMap API key → [Get one free here](https://openweathermap.org/api)
+- OpenWeatherMap API key → [Get one free here](https://openweathermap.org)
 
 ---
 
@@ -104,7 +102,7 @@ npm install
 npm run dev
 ```
 
-The app will be available at `http://localhost:5173`.
+The app will be available at `http://localhost:YOUR_PORT_NO`.
 
 ---
 
@@ -129,38 +127,9 @@ The app will be available at `http://localhost:5173`.
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! Here's how to get involved:
-
-1. **Fork** the repository
-2. **Create** a new branch for your feature:
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-3. **Commit** your changes with a clear message:
-   ```bash
-   git commit -m "feat: add your feature description"
-   ```
-4. **Push** to your fork:
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-5. **Open a Pull Request** — describe what you changed and why
-
-### Contribution Guidelines
-- Keep pull requests focused and small
-- Follow the existing code style
-- Test your changes before submitting
-- Update documentation if your change requires it
-
----
-
 ## 🙏 Acknowledgements
 
 - [OpenWeatherMap](https://openweathermap.org/) for the free weather API
-- [React](https://react.dev/) and [Node.js](https://nodejs.org/) communities
-
 ---
 
-*Made with ☀️ by [Your Name](https://github.com/your-username)*
+*Made by [Sharad Bista](https://github.com/SharadHub)*
